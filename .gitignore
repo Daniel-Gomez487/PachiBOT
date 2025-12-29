@@ -1,1 +1,14 @@
+# Ignorar archivos de variables de entorno
 .env
+*.env
+token.env
+
+# Ignorar entornos y cachés
+__pycache__/
+*.pyc
+
+# Ignorar VS Code
+.vscode/
+
+# Ignorar logs
+*.log
